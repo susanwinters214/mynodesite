@@ -1,0 +1,28 @@
+<%- include("../partials/header") -%>
+<div id="mainContent">
+<h2>My name is <%= name %></h2>
+<p>This website was creating using the following technologies:</p>
+ 
+<% listnames.forEach(function(listnames) { %>
+  <p><%= listnames %></p>
+  <% }); %>
+<hr>
+<p>
+  I am using <a href="https://www.digitalocean.com/">Digital Ocean</a> as my hosting platform (aka "the cloud").
+  Digital Ocean Kubernetes provides a FREE control panel for administration tasks.
+  Digital Ocean's VM platform is a fully managed MySQL, Redis, and PostgreSQL database engine.
+  When you sign up for Digital Ocean you are given a $100 credit that expires in 60 days. You'll need to add a 
+  credit card number to sign up so that they have the information once your credit expires.
+  A droplet is a VPS (Virtual Private Server.) 
+</p>
+
+<!--
+ <form class="item" action="/" method="post">
+        <input type="text" name="newCustomer" placeholder="New Dealer Info" autocomplete="off">
+        <button type="submit" name="list">+</button>
+      </form>  
+-->
+
+
+</div>
+<%- include("../partials/footer") -%>

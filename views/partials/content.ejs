@@ -1,0 +1,33 @@
+<%- include("../partials/header") -%>
+
+  <div class="box" id="heading">
+
+  </div>
+  
+ 
+  <% for (let i=0; i < newCustomerItems.length; i++){ %>
+          
+    <div class="item">
+      <p>
+        <span class="custName"><%= newCustomerItems[i].name %></span> 
+        <span class="phoneNumber"> <%= newCustomerItems[i].phone %></span>
+        <span class="phoneNumber"> <%= newCustomerItems[i].zipCodes %></span>  
+        </p>
+    </div> 
+
+<% } %>
+
+<!--
+ <form class="item" action="/" method="post">
+        <input type="text" name="newCustomer" placeholder="New Dealer Info" autocomplete="off">
+        <button type="submit" name="list">+</button>
+      </form>
+  
+-->
+     
+
+
+  </div>
+
+<%- include("../partials/footer") -%>
+

@@ -1,0 +1,17 @@
+
+body{font-family:Verdana, Geneva, Tahoma, sans-serif; margin-top:0;margin-left:0; margin-right:0; padding:0}
+
+
+header{background-color:navy; height:100px;margin-bottom:25px;color:white;text-align:center;padding-top:10px;}
+#mainContent{margin-left:10px; margin-right:10px;}
+ .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:black;
+    color: white;
+    text-align: center;
+    height:50px;
+    padding-top:5px;
+ }
